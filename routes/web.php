@@ -14,9 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/login', function () {
-    return response('Not implemented', 501);
-})->name('login');
+Route::get('/login', LoginController::class)->name('login');
 
 Route::group(['middleware' => 'auth'] ,function (){
     Route::get('/home', HomeController::class)->name('app.home');

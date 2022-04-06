@@ -424,12 +424,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
-.m-0 {
-  margin: 0px;
-}
-.m-auto {
-  margin: auto;
-}
 .flex {
   display: flex;
 }
@@ -439,20 +433,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 .h-\[60px\] {
   height: 60px;
 }
-.h-full {
-  height: 100%;
-}
-.h-auto {
-  height: auto;
-}
-.h-4\/6 {
-  height: 66.666667%;
-}
 .h-5\/6 {
   height: 83.333333%;
-}
-.max-h-\[60px\] {
-  max-height: 60px;
 }
 .w-screen {
   width: 100vw;
@@ -463,32 +445,17 @@ Ensure the default browser behavior of the `hidden` attribute.
 .w-8\/12 {
   width: 66.666667%;
 }
-.flex-1 {
-  flex: 1 1 0%;
-}
-.flex-auto {
-  flex: 1 1 auto;
-}
 .flex-initial {
   flex: 0 1 auto;
 }
-.grow {
-  flex-grow: 1;
-}
-.basis-full {
-  flex-basis: 100%;
+.flex-1 {
+  flex: 1 1 0%;
 }
 .flex-row {
   flex-direction: row;
 }
 .flex-wrap {
   flex-wrap: wrap;
-}
-.place-items-stretch {
-  place-items: stretch;
-}
-.items-start {
-  align-items: flex-start;
 }
 .items-center {
   align-items: center;
@@ -504,18 +471,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .justify-items-stretch {
   justify-items: stretch;
-}
-.self-start {
-  align-self: flex-start;
-}
-.justify-self-start {
-  justify-self: start;
-}
-.rounded {
-  border-radius: 0.25rem;
-}
-.rounded-full {
-  border-radius: 9999px;
 }
 .rounded-md {
   border-radius: 0.375rem;
